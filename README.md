@@ -1,4 +1,4 @@
-# tar-contents
+# tar-contents [![Build Status](https://travis-ci.org/TheSavior/tar-contents.svg?branch=master)](https://travis-ci.org/TheSavior/tar-contents)
 Read the contents of a tar file
 
 ```shell
