@@ -1,0 +1,33 @@
+{
+  "name": "get-tar-contents",
+  "version": "1.0.0",
+  "description": "Read the contents of a tar file",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": " mocha --color"
+  },
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheSavior/get-tar-contents.git"
+  },
+  "keywords": [
+    "tar"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheSavior/get-tar-contents/issues"
+  },
+  "homepage": "https://github.com/TheSavior/get-tar-contents",
+  "devDependencies": {
+    "bluebird": "^2.9.13",
+    "fs-extra": "^0.16.4",
+    "mocha": "^2.1.0",
+    "node-dir": "^0.1.6",
+    "node-uuid": "^1.4.3",
+    "tar-fs": "^1.5.0"
+  }
+}
