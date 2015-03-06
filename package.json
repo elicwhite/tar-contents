@@ -1,6 +1,6 @@
 {
-  "name": "get-tar-contents",
-  "version": "1.0.0",
+  "name": "tar-contents",
+  "version": "1.0.1",
   "description": "Read the contents of a tar file",
   "main": "index.js",
   "directories": {
@@ -12,22 +12,24 @@
   "author": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheSavior/get-tar-contents.git"
+    "url": "https://github.com/TheSavior/tar-contents.git"
   },
   "keywords": [
     "tar"
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TheSavior/get-tar-contents/issues"
+    "url": "https://github.com/TheSavior/tar-contents/issues"
   },
-  "homepage": "https://github.com/TheSavior/get-tar-contents",
-  "devDependencies": {
+  "homepage": "https://github.com/TheSavior/tar-contents",
+  "dependencies": {
     "bluebird": "^2.9.13",
     "fs-extra": "^0.16.4",
-    "mocha": "^2.1.0",
     "node-dir": "^0.1.6",
     "node-uuid": "^1.4.3",
     "tar-fs": "^1.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
   }
 }
