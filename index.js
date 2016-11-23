@@ -1,7 +1,7 @@
 'use strict';
 
 var Bluebird = require('bluebird');
-var uuid = require('node-uuid');
+var uuid = require('uuid');
 var path = require('path');
 var fs = Bluebird.promisifyAll(require('fs-extra'));
 var tar = require('tar-fs');
